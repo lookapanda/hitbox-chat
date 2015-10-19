@@ -10,8 +10,8 @@ A chat client library for hitbox.tv
 Constructs a hitbox.tv chat client. Exposed as the result of calling `require("hitbox-chat")`
 ```
 opts = null
-     | { user: "tsholmes", pass: "hunter2" }
-     | { user: "tsholmes", token: "0123456789abcdef0123456789abcdef0123457" }
+     | { name: "tsholmes", pass: "hunter2" }
+     | { name: "tsholmes", token: "0123456789abcdef0123456789abcdef0123457" }
 ```
 
 #### HitboxChatClient#on(event:String, callback:Function)
